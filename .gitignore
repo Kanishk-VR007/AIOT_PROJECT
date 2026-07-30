@@ -1,0 +1,16 @@
+# Secrets and Keys
+aiot-key.json
+pyscript/aiot-key.json
+
+# Databases
+*.db
+*.sqlite3
+
+# Python virtual environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
