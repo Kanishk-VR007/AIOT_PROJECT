@@ -4,7 +4,7 @@
 #define DHTTYPE DHT11
 
 #define RAIN_SENSOR_PIN A0
-#define SOIL_MOISTURE_PIN A1 // NEW: Dedicated Soil Moisture Sensor
+#define SOIL_MOISTURE_PIN A1
 #define LDR_PIN A3
 
 #define PUMP_RELAY_PIN 8

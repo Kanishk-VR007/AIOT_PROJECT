@@ -44,7 +44,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* Presence & Illumination Stack */}
+        {/* Presence Stack */}
         <div className="col-span-1 md:col-span-4 flex flex-col gap-gutter">
           {/* Presence Card */}
           <div className="bg-surface-container-lowest rounded-xl p-6 soft-shadow card-border flex-1 flex flex-col justify-center">
@@ -61,21 +61,6 @@ export default function Dashboard() {
                   <div className="w-8 h-8 rounded-full bg-primary-container border-2 border-white flex items-center justify-center text-xs text-white">Z4</div>
                 )}
               </div>
-            </div>
-          </div>
-
-          {/* Illumination Card */}
-          <div className="bg-surface-container-lowest rounded-xl p-6 soft-shadow card-border flex-1 flex flex-col justify-center">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="material-symbols-outlined text-primary">lightbulb</span>
-              <h2 className="font-label-caps text-label-caps uppercase text-outline">Illumination</h2>
-            </div>
-            <div className="flex items-end justify-between mb-2">
-              <div className="text-3xl font-bold text-on-surface">{displayData.led_brightness}%</div>
-              <div className="text-sm text-outline">Auto-dimming active</div>
-            </div>
-            <div className="w-full bg-surface-variant rounded-full h-2.5 mt-2">
-              <div className="bg-primary-container h-2.5 rounded-full transition-all duration-1000" style={{ width: `${displayData.led_brightness}%` }}></div>
             </div>
           </div>
         </div>
