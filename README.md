@@ -417,6 +417,4 @@ cd AIOT_PROJECT
 
 ---
 
-## 📜 License
-
-This project is open-source and licensed under the [MIT License](LICENSE). Feel free to adapt, extend, and deploy it for research, home automation, and precision agricultural applications.
+Feel free to adapt, extend, and deploy it for research, home automation, and precision agricultural applications.
