@@ -6,7 +6,6 @@
 [![Middleware](https://img.shields.io/badge/Middleware-Python%203.10%2B-3776AB.svg?logo=python)](https://python.org)
 [![Frontend](https://img.shields.io/badge/Frontend-React%2019%20%7C%20Vite-61DAFB.svg?logo=react)](https://react.dev/)
 [![Database](https://img.shields.io/badge/Database-SQLite%20%7C%20Firebase%20Firestore-FFA611.svg?logo=firebase)](https://firebase.google.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 An intelligent, full-stack **Artificial Intelligence of Things (AIoT)** ecosystem combining embedded hardware sensing, closed-loop edge actuation, localized LLM cognitive intelligence, and a real-time reactive web dashboard. 
 
